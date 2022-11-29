@@ -2,7 +2,7 @@
 
 ###### Contributors
 
-> Mulualem Zewude <mulualem00m@gmail.com>
+> Zewdie Habtie <zewdiehabtie26@gmail.com>
 > Azeez Adewale <adewale.d.a@outlook.com>
 
 Joint project
