@@ -1,0 +1,122 @@
+.places {
+  margin-bottom: 60px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.places h1 {
+  font-size: 30px;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: #ff5a5f solid 1px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+
+.places h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.places .price_by_night {
+  color: #ff5a5f;
+  border: #ff5a5f solid 4px;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  right: 5%;
+  top: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  height: 80px;
+  border-top: #dddddd solid 1px;
+  border-bottom: #dddddd solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+  width: 100px;
+}
+
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+  margin: 0;
+}
+
+.img1 {
+  background-image: url("../images/icon_group.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+
+.img2 {
+  background-image: url("../images/icon_bed.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+
+.img3 {
+  background-image: url("../images/icon_bath.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+
+.user {
+  text-align: initial;
+  padding: 10px 0;
+}
+
+article .amenities,
+article .reviews {
+  margin-top: 40px;
+}
+article .amenities h2,
+article .reviews h2 {
+  text-align: initial;
+  font-size: 16px;
+  border-bottom: #dddddd solid 1px;
+}
+
+article .amenities ul,
+article .reviews ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+article .amenities ul li {
+  padding: 5px;
+}
+
+article .reviews h3 {
+  font-size: 14px;
+}
+
+article .reviews p {
+  font-size: 12px;
+}
